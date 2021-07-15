@@ -1,0 +1,11 @@
+TASK - READ TASK CAREFULLY WITH TASK DEADLINE.
+
+1. Complete this full Django & React Playlist - https://www.youtube.com/playlist?list=PLillGF-RfqbbRA-CIUxlxkUpbq0IFkX60 
+2. Upload the project you have made using Django & React Playlist on Github. Make a video of project and share it.
+3. After complete the youtube tutorial. 
+4. You create a project of your own choice which will have CRUD Operations using Django and ReactJS and 
+    Send a video of it, how it work and explain code.
+
+So you have to watch a youtube full stack django reactjs tutorial and
+then create a project of your own choice and send video of it.
+
