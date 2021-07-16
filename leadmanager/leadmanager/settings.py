@@ -38,22 +38,24 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    #apps
+    # apps
     'leads',
     'frontend',
+    'accounts',
 
-    # 3rd Party 
+    # 3rd Party
     'rest_framework',
+    'knox',
 ]
 
 REST_FRAMEWORK = {
 
     'DEFAULT_AUTHENTICATION_CLASSES': (
-
         'rest_framework.authentication.BasicAuthentication',
+        'knox.auth.TokenAuthentication',
+    ),
 
-    )
-
+    # 'DEFAULT_PERMISSION_CLASSES': ('rest_framework.permissions.IsAuthenticated',),
 }
 
 MIDDLEWARE = [
